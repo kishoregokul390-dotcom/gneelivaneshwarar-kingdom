@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gneelivaneshwarar Kingdom</title>
+  <style>
+    body { margin:0; font-family:'Noto Sans Tamil', Arial, sans-serif; background:#faf6ef; color:#3b2f2f; display:flex; scroll-behavior:smooth;}
+    nav { width:220px; background:#6b1e14; color:white; height:100vh; position:fixed; left:0; top:0; display:flex; flex-direction:column; align-items:center; padding-top:40px;}
+    nav h2 { font-size:18px; margin-bottom:30px; text-align:center; }
+    nav a { color:white; text-decoration:none; margin:10px 0; font-weight:bold; transition:color 0.3s; cursor:pointer;}
+    nav a:hover { color:#ffd700; }
+    main { margin-left:220px; padding:40px; flex:1; }
+    section { margin-bottom:60px; background:#fffaf3; padding:20px; border-radius:10px; box-shadow:0 2px 10px rgba(0,0,0,0.1); }
+    h1,h2 { color:#6b1e14; }
+    table { width:100%; border-collapse:collapse; margin-top:15px; }
+    th,td { padding:8px; border-bottom:1px solid #ddd; text-align:left; }
+    th { background-color:#f3e3d3; }
+    .map { width:100%; height:300px; border:none; border-radius:8px; }
+    .toggle-btn { position:fixed; right:20px; top:20px; padding:8px 12px; background:#6b1e14; color:white; border:none; border-radius:5px; cursor:pointer; font-weight:bold; }
+    img.photo { width:48%; border-radius:8px; margin:5px; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2>🕉️ Gneelivaneshwarar<br>Kingdom</h2>
+    <a href="#history">History</a>
+    <a href="#photos">Photos</a>
+    <a href="#festival">Festival</a>
+    <a href="#architecture">Architecture</a>
+    <a href="#location">Location</a>
+  </nav>
+
+  <button class="toggle-btn" onclick="toggleLanguage()">தமிழ் / EN</button>
+
+  <main>
+
+    <section id="welcome">
+      <h1 data-en="Welcome to Gneelivaneshwarar Kingdom" data-ta="க்நீலிவனேஸ்வரர் ராஜ்யத்திற்கு வரவேற்கின்றோம்">Welcome to Gneelivaneshwarar Kingdom</h1>
+      <p data-en="Discover the sacred temple of Lord Gneelivaneshwarar in Thiruppanjili, Tamil Nadu." data-ta="திருப்பாஞ்சிலியில் அமைந்துள்ள க்நீலிவனேஸ்வரர் கோவிலை ஆராயுங்கள்.">Discover the sacred temple of Lord Gneelivaneshwarar in Thiruppanjili, Tamil Nadu.</p>
+    </section>
+
+    <section id="history">
+      <h2 data-en="Temple History" data-ta="கோவில் வரலாறு">Temple History</h2>
+      <p data-en="The temple is dedicated to Lord Neelivaneshwarar and Goddess Vanathai Amman. Built during the Chola period, it has been renovated over centuries." data-ta="இந்த கோவில் நீலிவணேஸ்வரர் மற்றும் வனத்தாய் அம்மனுக்கு அர்ப்பணிக்கப்பட்டது. சோழர் காலத்தில் கட்டப்பட்டது மற்றும் நூற்றாண்டுகளாக புதுப்பிக்கப்பட்டது.">The temple is dedicated to Lord Neelivaneshwarar and Goddess Vanathai Amman. Built during the Chola period, it has been renovated over centuries.</p>
+    </section>
+
+    <section id="photos">
+      <h2 data-en="Temple Photos" data-ta="கோவில் படங்கள்">Temple Photos</h2>
+      <img src="https://images.unsplash.com/photo-1601758123927-7a2a3d6c6f1b?q=80&w=600" class="photo" alt="Temple photo">
+      <img src="https://images.unsplash.com/photo-1504252060325-3b3f9f5b8a1f?q=80&w=600" class="photo" alt="Temple tower">
+      <p data-en="Photos will be linked to social media feeds." data-ta="படங்கள் சமூக வலைதள இணைப்புகளுடன் இணைக்கப்படும்.">Photos will be linked to social media feeds.</p>
+    </section>
+
+    <section id="festival">
+      <h2 data-en="Temple Festivals" data-ta="திருக்கோவில் திருவிழாக்கள்">Temple Festivals</h2>
+      <table>
+        <tr><th>Tamil Month</th><th>Nakshatra / Day</th><th>Festival</th><th>English Date (2025)</th></tr>
+        <tr><td>Chithirai</td><td>Ashtam Nakshatra</td><td>Neelivaneshwarar Car Festival</td><td>May 10, 2025</td></tr>
+        <tr><td>Chithirai</td><td>Avittam Nakshatra</td><td>Appar Kattam (Food for Appar Swamy)</td><td>May 23, 2025</td></tr>
+        <tr><td>Aani</td><td>-</td><td>Aani Thirumanjanam</td><td>June 27, 2025</td></tr>
+        <tr><td>Aadi</td><td>-</td><td>Aadi Car Festival (Vishalachi Amman)</td><td>July 2, 2025</td></tr>
+        <tr><td>Purattasi</td><td>6,7,8</td><td>Sun Pooja</td><td>Sep 26–28, 2025</td></tr>
+        <tr><td>Purattasi</td><td>-</td><td>Vijayadashami Ambu Vidu Festival</td><td>Oct 2, 2025</td></tr>
+        <tr><td>Aippasi</td><td>-</td><td>Kandha Shashti (Soorasamharam)</td><td>Oct 27, 2025</td></tr>
+        <tr><td>Karthigai</td><td>-</td><td>Karthigai Dheepam</td><td>Nov 4, 2025</td></tr>
+        <tr><td>Margazhi</td><td>-</td><td>Morning Pooja</td><td>Jan 1, 2025</td></tr>
+        <tr><td>Thai</td><td>-</td><td>Poosam Theerthavari</td><td>Jan 21, 2025</td></tr>
+        <tr><td>Maasi</td><td>4th Tuesday</td><td>Kida Vettu Festival</td><td>Mar 25, 2025</td></tr>
+        <tr><td>Maasi</td><td>-</td><td>Maha Shivaratri</td><td>Mar 4, 2025</td></tr>
+        <tr><td>Panguni</td><td>6,7,8</td><td>Sun Pooja</td><td>Mar 31–Apr 2, 2025</td></tr>
+        <tr><td>Panguni</td><td>Uthiram Nakshatra</td><td>Murugan Kavadi</td><td>Apr 6, 2025</td></tr>
+      </table>
+      <p style="font-style:italic;" data-en="Dates change yearly according to Tamil lunar calendar." data-ta="இந்தத் தேதிகள் தமிழ் பஞ்சாங்கம் அடிப்படையில் வருடம் வாரியாக மாறும்.">Dates change yearly according to Tamil lunar calendar.</p>
+    </section>
+
+    <section id="architecture">
+      <h2 data-en="Temple Architecture" data-ta="கோவில் வடிவமைப்பு">Temple Architecture</h2>
+      <p data-en="Chola-style gopuram, carved pillars, sanctum for Lord Neelivaneshwarar and Vanathai Amman." data-ta="சோழர் பாணி கோபுரம், சிற்பக் கம்பங்கள், நீலிவணேஸ்வரர் மற்றும் வனத்தாய் அம்மனுக்கான உள்மண்டபம்.">Chola-style gopuram, carved pillars, sanctum for Lord Neelivaneshwarar and Vanathai Amman.</p>
+    </section>
+
+    <section id="location">
+      <h2 data-en="Temple Location" data-ta="கோவில் இடம்">Temple Location</h2>
+      <p data-en="Located in Thiruppanjili, near Tiruchirapalli, Tamil Nadu." data-ta="திருப்பாஞ்சிலி, திருச்சிராப்பள்ளி அருகே அமைந்துள்ளது.">Located in Thiruppanjili, near Tiruchirapalli, Tamil Nadu.</p>
+      <iframe class="map" src="https://www.google.com/maps?q=Thiruppanjili+Gneelivaneshwarar+Temple&output=embed" allowfullscreen></iframe>
+    </section>
+
+  </main>
+
+  <script>
+    let lang = 'en';
+    function toggleLanguage(){
+      lang = (lang==='en')?'ta':'en';
+      document.querySelectorAll('[data-en]').forEach(el=>{
+        el.textContent = el.getAttribute('data-'+lang);
+      });
+    }
+  </script>
+
+</body>
+</html>
